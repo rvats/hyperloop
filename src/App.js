@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { TodoList } from "./TodoList";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://virginhyperloop.com/progress"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Virgin Hyperloop Simulator
-        </a>
-      </header>
+    <div>
+      <TodoList />
+      <input type="text" />
+      <button>Add Todo</button>
+      <button>Clear Completed Todos</button>
+      <div>0 left to do </div>
     </div>
   );
 }
