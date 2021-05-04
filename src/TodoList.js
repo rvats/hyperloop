@@ -1,7 +1,6 @@
-import React, {useState} from 'react'
+import React from 'react'
 
 export default function TodoList(todos) {
-  const [todos, setTodos] = useState([])
   return (
     <div>
       <h1>To Do List</h1>
