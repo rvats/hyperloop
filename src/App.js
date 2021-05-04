@@ -7,7 +7,7 @@ function App() {
       <TodoList todos={todos}/>
       <input type="text" />
       <button>Add Todo</button>
-      <button>Clear Completed Todos</button>
+      <button>Clear Complete</button>
       <div>0 left to do </div>
     </div>
   );
