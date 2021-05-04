@@ -2,7 +2,7 @@ import { TodoList } from "./TodoList";
 function App() {
   return (
     <div>
-      <TodoList />
+      <TodoList todos={todos}/>
       <input type="text" />
       <button>Add Todo</button>
       <button>Clear Completed Todos</button>
